@@ -1,0 +1,21 @@
+h4{
+    color: rgb(67, 179, 78);
+    text-align: center;
+}
+#id1{
+    color: brown;
+}
+.box{
+    border: 2px solid red;
+    margin: 23px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 2%;
+}
+button{
+    color: brown;
+}
+.tb{
+    margin-left: 30%;
+    border-collapse: collapse;
+}
