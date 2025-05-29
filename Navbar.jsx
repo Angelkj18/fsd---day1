@@ -22,25 +22,16 @@ const Navbar = () => {
             sx={{ mr: 2 }}
           >
             <MenuIcon />
-            <Typography>
-            {/* <Button>
-                <Link to={'/'} style={{color:'white',textDecoration:'none'}}>Login</Link>
-            </Button> */}
-            {/* <Button>
-                <Link to={'r'} style={{color:'white',textDecoration:'none'}}>Reg</Link>
-            </Button> */}
+            <Typography variant='h6' component="div" sx={{flexGrow:1}}>
+              Student Management App
             <Button>
-                <Link to={'/t'} style={{color:'white',textDecoration:'none'}}>Table</Link>
+                <Link to={'/view'} style={{color:'white',textDecoration:'none'}}></Link>
             </Button>
             <Button>
-                <Link to={'/c'} style={{color:'white',textDecoration:'none'}}>Card</Link>
+                <Link to={'/'} style={{color:'white',textDecoration:'none'}}></Link>
             </Button>
             </Typography>
           </IconButton>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            News
-          </Typography>
-          <Button color="inherit">Register/Login</Button>
         </Toolbar>
       </AppBar>
     </Box>
